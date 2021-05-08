@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+.bg-dark {
+    background-color: #fff !important;
+    box-shadow: 7.96298px 3.98149px 44.7918px 6.96761px rgba(0, 0, 0, 0.15) !important;
+}
+
+.nav_logo_container {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-items: center;
+
+    img {
+        height: 3.5rem;
+    }
+
+    h6 {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+}
+
+.nav_links {
+    padding: 0.5rem;
+
+    color: #fff;
+}
+
+.nav_links:hover {
+    background: #58547e;
+    color: #fff;
+    text-decoration: none;
+}
+
+.get_vaccin_btn {
+    border: none;
+    padding: 0.5rem 1rem;
+
+    border-radius: 0.5rem;
+    background-color: #58547e;
+    color: #fff;
+}

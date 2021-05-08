@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.hero_section_container {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#cfe9f5), color-stop(#cfe9f5), to(white));
+  background-image: linear-gradient(to bottom, #cfe9f5, #cfe9f5, white);
+}
+
+.herosection_grid h4 {
+  margin: 0;
+}
+
+.herosection_grid img {
+  display: none;
+}
+
+@media only screen and (min-width: 767px) {
+  .hero_section_container {
+    background-image: unset;
+  }
+  .herosection_grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 4rem 0rem;
+  }
+  .herosection_grid h4 {
+    margin: 0;
+  }
+  .herosection_grid img {
+    display: block;
+    width: 100%;
+    margin-left: 7.5rem;
+  }
+}
+/*# sourceMappingURL=HeroSection.css.map */

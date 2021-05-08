@@ -1,0 +1,59 @@
+* {
+
+    padding: 0;
+
+    margin: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+.hero_section_container{
+    background-image: linear-gradient(to bottom,#cfe9f5,#cfe9f5,white);
+    
+}
+
+.herosection_grid {
+
+    h4 {
+        margin: 0;
+    }
+
+    img {
+        display: none;
+    }
+
+}
+
+
+@media only screen and (min-width: 767px) {
+
+    .hero_section_container{
+        background-image: unset;
+        
+    }
+
+    .herosection_grid {
+
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+
+        padding: 4rem 0rem;
+
+        h4 {
+            margin: 0;
+        }
+    
+        img {
+            display: block;
+            width: 100%;
+
+            margin-left: 7.5rem;
+        }
+    
+    }
+
+
+}
